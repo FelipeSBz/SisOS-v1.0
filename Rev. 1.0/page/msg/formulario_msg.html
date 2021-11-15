@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Mensagens</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Envie sua Mensagem para o CPD</h1>
+	<form method="POST" action="../../sys/msg/msg.php">
+		<p>Digite o Setor: </p> <input type="text" size="42" name="setor" maxlength="42" required>
+		<p>Digite seu Nome: </p> <input type="text" size="42" name="nome" maxlength="42" required>
+		<p>Digite o Ramal: </p> <input type="text" size="20" name="telefone" maxlength="12" required>
+		<p>Digite sua Mensagem: </p><textarea name="mensagem" rows="6" cols="59" required></textarea>
+		<BR><input type="submit" name="enviar" value="Enviar">
+	</form>
+		<p><a href="consulta_protocolo.html">Consultar Prolocolo</a></p>
+  </body>
+</html>
